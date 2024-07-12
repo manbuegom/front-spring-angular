@@ -1,0 +1,17 @@
+<h2> Teacher list </h2>
+<table class="table table-striped table-bordered">
+  <thead class="thead-dark">
+    <tr>
+        <th scope="col"ng > Name</th>
+        <th scope="col"> Last Name</th>
+        <th scope="col"> Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor = "let teacher of teachers">
+      <td>{{ teacher.name }}</td>
+      <td>{{ teacher.lastName }}</td>
+      <td>{{ teacher.email }}</td>
+    </tr>
+  </tbody>
+</table>

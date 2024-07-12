@@ -1,0 +1,84 @@
+# Node modules
+node_modules/
+
+# Angular build output
+dist/
+build/
+
+# Output of 'ng serve'
+.tmp/
+
+# Environment files
+src/environments/
+
+# IDE and Editor config files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+.tmp/
+temp/
+
+# Coverage results
+coverage/
+
+# Angular cache
+.angular/cache/
+
+# Compiled JavaScript files and source maps
+**/*.js
+**/*.d.ts
+**/*.js.map
+
+# Other specific files
+.sass-cache/
+connect.lock
+coverage/*
+libpeerconnection.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+testem.log
+typings/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Angular service worker config
+ngsw-config.json
+ngsw.json
+
+# Local environment settings
+.env
+.env.*.local
+
+# NGRX store configuration
+*.ngrx/
+
+# Optional Puppeteer cache
+puppeteer/
+
+# Local development certificates
+sslcert/
+
+# VSCode Extension configurations
+.vscode-server/
+
+# Miscellaneous
+.sass-cache

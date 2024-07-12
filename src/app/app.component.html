@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-sm navbar-dark navbar-custom">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a routerLink="/home" routerLinkActive="active" class="nav-link" >Home</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="/teachers" routerLinkActive="active" class="nav-link" >Teacher List</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="/createTeacher" routerLinkActive="active" class="nav-link" >Add Teacher</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="/about" routerLinkActive="active" class="nav-link" >About</a>
+    </li>
+  </ul>
+</nav>
+
+<h1 class="text-center"> {{title}} </h1>
+<div class="container mt-4">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <span> All rights reserved 2024 Manbuegom</span>
+  </div>
+</footer>
