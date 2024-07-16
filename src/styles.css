@@ -13,3 +13,8 @@
 .navbar-custom {
   background-color: green;
 }
+
+.button-custom {
+  color: white;
+  background-color: green !important;
+}
